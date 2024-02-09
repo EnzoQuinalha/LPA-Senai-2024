@@ -16,12 +16,12 @@ programa
 		leia(endereco)
 		escreva("Qual seu telefone? \n")
 		leia(telefone)
-		escreva("O ", produto, " produto que você quer comprar custa: ", preco, "\n")
+		escreva("O ", produto, " produto que você quer comprar custa R$", preco, "\n")
 		leia(pag)
 		escreva("\nSó aceitamos pagamento em dinheiro \n")
 		leia(resp1)
-		escreva("Perfeito, aqui esta seu troco: ", dinheiro - preco, "\nObrigado pela compra!")
-		escreva("\n_____________________________")
+		escreva("Perfeito, aqui esta seu troco R$", dinheiro - preco)
+		escreva("\nObrigado pela compra ", nome, " voce adquiriu um ", produto, " por R$", preco)
 
 		
 	}
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 685; 
+ * @POSICAO-CURSOR = 621; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
