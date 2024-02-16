@@ -1,3 +1,8 @@
+/*
+ * Algoritmo: Par Impar
+ * @Enzo M Quinalha 16/02/2024
+ */
+
 programa
 {
 	
@@ -28,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 199; 
+ * @POSICAO-CURSOR = 57; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
