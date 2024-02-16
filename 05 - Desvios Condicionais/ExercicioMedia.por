@@ -10,13 +10,13 @@ programa
 	
 		se (idade < 12)
 		{
-			escreva("Você é um fraldinha!")
+			escreva("Você é um fraldinha *Not XD*")
 			}
-		se (idade >= 12 e idade <= 18)
+		se (idade >= 12 e idade <18)
 		{
 			escreva("Já pode tomar todinho:)")
 		}
-		se (idade > 18)
+		se (idade >= 18)
 		{
 			escreva("Você é de maior XD")
 		}
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 303; 
+ * @POSICAO-CURSOR = 266; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
