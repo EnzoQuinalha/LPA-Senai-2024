@@ -3,22 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero, result
+		inteiro numero, resto
 
 		escreva("Digite um número inteiro\n")
 		leia(numero)
-		result = numero % 2
+		resto = numero % 2
 
 		limpa()
 
-		se (result == 0)
+		se (resto != 0)
 		{
-			escreva("Par")
+			escreva("Impar\n")
 			}
 
 		senao
 		{
-			escreva("Impar")
+			escreva("Par\n")
 			}
 		
 	}
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 151; 
+ * @POSICAO-CURSOR = 208; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
