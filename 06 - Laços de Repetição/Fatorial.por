@@ -8,8 +8,15 @@ programa
 		inteiro num, cont = 1 
 		real fatorial = 1.0
 
-		escreva("Digite um número para calculo de seu fatorial: ")
-		leia(num)
+		
+		faca
+		{
+			escreva("Digite um número (<=170) para calculo de seu fatorial: ")
+			leia(num)
+		}	
+		
+		enquanto (num > 170 ou num < 0)
+		
 		
 		enquanto (cont <= num)
 		{
@@ -26,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 120; 
+ * @POSICAO-CURSOR = 286; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
