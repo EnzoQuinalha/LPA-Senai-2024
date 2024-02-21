@@ -6,7 +6,16 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro idade
+
+		faca
+		{
+			escreva("Informe sua idade (valores acima de 14): \n")
+			leia(idade)
+		}
+		enquanto (idade >= 14)
+
+		escreva("Idade informada inserida corretamente.\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -14,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 28; 
+ * @POSICAO-CURSOR = 285; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
