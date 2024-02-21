@@ -18,6 +18,9 @@ programa
 			soma = soma + numero //soma é um acumulador
 			cont++ //incrementa o contador
 		}
+		media = soma / 10
+		limpa()
+		escreva("A média dos números é: ", media, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 358; 
+ * @POSICAO-CURSOR = 470; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
