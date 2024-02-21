@@ -10,7 +10,7 @@ programa
 
 		faca
 		{
-			escreva("Informe sua idade (valores acima de 14): ")
+			escreva("Informe sua idade (valores acima de 14): \n")
 			leia(idade)
 		}
 		enquanto (idade < 14)
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 222; 
+ * @POSICAO-CURSOR = 225; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
