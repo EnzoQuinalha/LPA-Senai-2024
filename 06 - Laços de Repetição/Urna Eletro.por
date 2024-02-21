@@ -46,7 +46,7 @@ programa
 		//Se houve votos, calcula a porcentagem de votos de cada candidato
 		se(total > 0)
 		{
-			porcentcandA =mat.arredondar( (candA * 100.0) / total, 2)	
+			porcentcandA =mat.arredondar( (candA * 100.0) / total, 2)
 			porcentcandB =mat.arredondar(  (candB * 100.0) / total, 2)
 			porcentBranco =mat.arredondar(  (branco * 100.0) / total, 2)
 			porcentNulos =mat.arredondar(  (nulos * 100.0) / total, 2)
@@ -69,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1005; 
+ * @POSICAO-CURSOR = 1004; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
