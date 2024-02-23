@@ -22,19 +22,18 @@ programa
 			}
 		}
 
-		se (nao achou)
-		{
-			escreva("Número não encontrado")
-		}
+			se (nao achou)
+			{
+				escreva("Número não encontrado")
+			}
 	}	
 }
-	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 411; 
+ * @POSICAO-CURSOR = 461; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
