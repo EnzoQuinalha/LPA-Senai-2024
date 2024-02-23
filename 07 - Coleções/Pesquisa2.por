@@ -6,22 +6,25 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[] = { 1, 3, 5, 7, 9 }, num = 9
+		inteiro vetor[] = { 1, 3, 5, 7, 9 }, num = 8
 		logico achou = falso
-
+															
 		para (inteiro p = 0; p < 5; p++)
 		{
 			se (vetor[p] == num)
 			{
-				escreva("O número ", vetor[p], " foi encontrado.")
+				escreva("O número ", vetor[p], " foi encontrado.\n")
 				achou = verdadeiro
 			}
 		}
+
+		escreva("achou = ", achou, "\n")
 		se (nao achou)
 		{
+			escreva("não achou = ", nao achou, "\n")
 			escreva("Número não encontrado")
 		}
-	}
+	}	
 }
 	
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 22; 
+ * @POSICAO-CURSOR = 134; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
