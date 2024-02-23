@@ -8,9 +8,16 @@ programa
 	{
 		inteiro vetor[10]//Vetor de 10 posições, indicado por um número entre colchetes
 		//Vamos preencher o vetor
-		para (inteiro p = o; p < 10; p++)
+		para (inteiro pos = 0; pos < 10; pos++)
 		{
-			vetor[p] = util.sorteia(1, 100)
+			vetor[pos] = util.sorteia(1, 100)
+		}
+		//vamos exibir os valores do vetor na ordem original
+		escreva("Vetor na ordem original: \n")
+		escreva("| ")
+		para (inteiro pos = 0; pos < 10; pos++)
+		{
+			escreva(vetor[pos], " | ")
 		}
 	}
 }
@@ -19,9 +26,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 304; 
+ * @POSICAO-CURSOR = 415; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = vetor, matriz, funcao;
  */
