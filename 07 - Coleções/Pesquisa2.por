@@ -6,22 +6,24 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[] = { 1, 3, 5, 7, 9 }, num = 8
+		inteiro vetor[] = { 1, 3, 5, 7, 9 }, num
 		logico achou = falso
-															
+
+		escreva("Qual número deseja procurar: ")
+		leia(num)
+
+		
 		para (inteiro p = 0; p < 5; p++)
 		{
 			se (vetor[p] == num)
 			{
-				escreva("O número ", vetor[p], " foi encontrado.\n")
+				escreva("O número ", vetor[p], " foi encontrado na posição ", p, ".\n")
 				achou = verdadeiro
 			}
 		}
 
-		escreva("achou = ", achou, "\n")
 		se (nao achou)
 		{
-			escreva("não achou = ", nao achou, "\n")
 			escreva("Número não encontrado")
 		}
 	}	
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 134; 
+ * @POSICAO-CURSOR = 411; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
