@@ -36,13 +36,31 @@ programa
 	
 	funcao exibir (real coords[][])
 	{
+		escreva("Latitude\tLongitude\n")
+		escreva("========        =========\n")
+		
 		para (inteiro i = 0; i < u.numero_linhas(coords); i++)
 		{
 			para ( inteiro j = 0; j < u.numero_colunas(coords); j++)
 			{
-				escreva(" |",coords[i][j], "|\t ")
+
+				real cords = coords[i][j]
+				se ( cords >= 0.0 )
+				{
+					escreva(" ")
+				}
+				se (cords < 10.0 e coords[i][j] > -10.0)
+				{
+					escreva(" ")
+				}
+				se (cords < 100.0 e coords[i][j] > -100.0)
+				{
+					escreva(" ")
+				}
+				escreva(cords, "\t\t")
+					
 			}
-			escreva("\n " )	
+			escreva("\n")	
 		}
 	}
 }
@@ -51,7 +69,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 157; 
+ * @POSICAO-CURSOR = 1305; 
+ * @DOBRAMENTO-CODIGO = [10, 24, 28, 22, 20, 18, 47, 51, 55, 43, 36, 5];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
