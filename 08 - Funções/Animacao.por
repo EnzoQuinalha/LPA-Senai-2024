@@ -1,8 +1,8 @@
-/*****************************/
-/*Algoritmo: Animação Lagarta*/
-/*@EnzoQuinalha              */
-/*Data: 13/03/2024           */
-/*****************************/
+/******************************/
+/*Algoritmo:Animação Lagarta  */
+/*@EnzoQuinalha               */
+/*Data: 13/03/2024            */
+/******************************/
 
 programa
 {
@@ -67,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 307; 
+ * @POSICAO-CURSOR = 28; 
  * @DOBRAMENTO-CODIGO = [53, 44];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
